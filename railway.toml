@@ -1,0 +1,10 @@
+[build]
+# Command to install dependencies
+install = "npm install"
+
+# Command to build the project
+build = "npm run build" # If you are using TypeScript
+
+[server]
+# Command to run the WebSocket server
+start = "node dist/index.js" # or npm start depending on how your server runs
